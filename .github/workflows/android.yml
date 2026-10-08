@@ -242,7 +242,7 @@ jobs:
             }]
           }" \
           "$DISCORD_WEBHOOK"
-
+      - { name: Montar APK debug, run: "./gradlew :app:assembleDebug --stacktrace" }
       - name: Upload APK do fork
         uses: actions/upload-artifact@v4
         with:
