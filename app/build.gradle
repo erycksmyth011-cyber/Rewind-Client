@@ -39,7 +39,7 @@ android {
     namespace 'org.levimc.launcher'
     compileSdkVersion 36
     defaultConfig {
-        applicationId "org.levimc.launcher"
+        applicationId "app.rewind.client"
         minSdkVersion 28
         targetSdkVersion 35
         versionCode getVersionCodeByTimestamp()
@@ -102,7 +102,7 @@ android {
                 mappingFileUploadEnabled false
                 nativeSymbolUploadEnabled true
             }
-            resValue "string", "app_name", "LeviLauncher Beta"
+            resValue "string", "app_name", "Rewind Beta"
             buildConfigField "boolean", "IS_BETA", "true"
             matchingFallbacks = ["release"]
             ndk {
