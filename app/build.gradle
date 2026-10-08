@@ -39,7 +39,7 @@ android {
     namespace 'org.levimc.launcher'
     compileSdkVersion 36
     defaultConfig {
-        applicationId "app.rewind.client"
+        applicationId "app.rewind.clien"
         minSdkVersion 28
         targetSdkVersion 35
         versionCode getVersionCodeByTimestamp()
